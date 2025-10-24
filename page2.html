@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第2页：共享消费 - 会员</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: linear-gradient(135deg, #9333EA, #6B21A8); }
+        .page { min-height: 100vh; display: flex; flex-direction: column; padding: 2rem; color: white; }
+        .highlight { background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 8px; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- 页面标题 -->
+        <div class="mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold">共享消费：三连环（1️⃣ 会员）</h1>
+            <div class="w-24 h-1 bg-purple-300 mt-2"></div>
+        </div>
+
+        <!-- 核心内容 -->
+        <div class="flex-grow flex flex-col justify-center space-y-6 text-lg md:text-xl">
+            <p><span class="font-bold text-purple-200">[發] 会员门槛：</span>消费1000元/盒</p>
+            
+            <div class="highlight">
+                <p><span class="font-bold text-purple-200">[發] 会员收益：</span>7500元（6000元现金 + 1500元消费券）</p>
+                <ul class="list-disc list-inside mt-2 space-y-1">
+                    <li>1. 分享奖 1500元</li>
+                    <li>2. 4个1500分的共享消费积分</li>
+                </ul>
+            </div>
+
+            <div class="highlight border-l-4 border-purple-300 pl-4">
+                <p><span class="font-bold text-purple-200">★ 示例：</span>你分享2个会员可得1500元奖励，分享第3个会员可得1500分共享消费积分，进入公排等待激活转变为绿色积分。以此类推，分享第4、5、6个会员同第3个会员的收益。</p>
+            </div>
+
+            <p><span class="font-bold text-purple-200">备注：</span></p>
+            <ul class="list-disc list-inside space-y-1">
+                <li>绿色积分（可提现）</li>
+                <li>共享消费积分（公排激活）</li>
+                <li>消费券（可兑换紫滴甘露）</li>
+            </ul>
+        </div>
+
+        <!-- 页面切换按钮 -->
+        <div class="mt-8 flex justify-between">
+            <button onclick="location.href='page1.html'" class="bg-white/20 text-white px-5 py-2 rounded-full hover:bg-white/30 transition-colors">
+                ← 回到封面
+            </button>
+            <button onclick="location.href='page3.html'" class="bg-white text-purple-800 px-5 py-2 rounded-full hover:bg-purple-200 transition-colors">
+                下一页：店长 →
+            </button>
+        </div>
+    </div>
+</body>
+</html>
